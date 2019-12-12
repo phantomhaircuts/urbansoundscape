@@ -38,11 +38,20 @@ a:visited {
   height: 30em;
 }
 
-.history {
+.listening {
   padding: 3em;
   background-image: url('assets/vibes.png');
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.history {
+  padding: 3em;
+  background-image: url('assets/9481617B-4855-4217-8C97-404FBF4849E5-1221-0000009121920AF6.jpg');
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 30em;
 }
