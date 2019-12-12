@@ -1,0 +1,75 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020202;
+  color: #ede9dd;
+  font-family: 'helvetica neue';
+  -webkit-font-smoothing: antialiased;
+  line-height: 2.5rem;
+  letter-spacing: -0.0333333rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.2em;
+  color: #a8d3bf!important;
+}
+
+a:visited {
+ color: #ede9dd;
+}
+
+.intro {
+  padding: 3em;
+  background-image: url('assets/DSCF2604.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.history {
+  padding: 3em;
+  background-image: url('assets/vibes.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.covers {
+  padding: 3em;
+}
+
+.cover-container {
+  display: flex;
+}
+
+.cover {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
